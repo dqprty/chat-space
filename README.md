@@ -46,7 +46,6 @@ Things you may want to cover:
 ## users_groupsテーブル
 |Column|Type|Options|
 |------|----|-------|
-|member|text|null: false|
 |user|references|null: false, foreign_key: true|
 |group|references|null: false, foreign_key: true|
 ### Association
