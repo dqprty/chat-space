@@ -103,6 +103,7 @@
   &__messages{
     height: calc(100vh - 100px - 90px);
     background-color:#fafafa;
+    box-sizing: border-box;
     padding:35px 40px 0;
     overflow:scroll;
     .message-box{
