@@ -55,9 +55,9 @@ $(function() {
   });
   $("#UserSearchResult").on("click", ".ChatMember__add", function(){
     const userName = $(this).attr("data-user-name");
-    const userID = $(this).attr("data-user-id");
+    const userId = $(this).attr("data-user-id");
     $(this).parent().remove();
-    addMember(userName, userID);
+    addMember(userName, userId);
   });
   $(".ChatMembers").on("click", ".ChatMember__remove", function() {
     $(this).parent().remove();
